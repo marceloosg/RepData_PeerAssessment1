@@ -135,6 +135,6 @@ the median is `r median(fillSteps)`
 
 #We plot
 	library(lattice)
-	xyplot(`Number of steps` ~  interval | day,data=week,layout= c(1,2),type="l",xlab="Interval")
+	xyplot(`Number of steps` ~  interval | day,data=week,layout= c(1,2),type="l",xlab="Interval",main = " Activity patterns between weekdays and weekends")
 ```
 
